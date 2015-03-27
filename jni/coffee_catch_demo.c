@@ -12,7 +12,7 @@ void dangerous_code()
     __android_log_write(ANDROID_LOG_ERROR, "coffee-catch-demo", "Should not reach here");
 }
 
-void Java_com_example_ayush_CoffeeCatchDemo_CoffeeCatchActivity_nativeCrashingFunction(JNIEnv *env, jobject obj)
+void Java_com_example_ayush_coffeecatchdemo_CoffeeCatchActivity_nativeCrashingFunction(JNIEnv *env, jobject obj)
 {
     COFFEE_TRY_JNI(env, dangerous_code());
 }

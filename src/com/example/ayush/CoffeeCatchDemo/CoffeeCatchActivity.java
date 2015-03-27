@@ -1,4 +1,4 @@
-package com.example.ayush.CoffeeCatchDemo;
+package com.example.ayush.coffeecatchdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
